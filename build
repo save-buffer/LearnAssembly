@@ -1,0 +1,1 @@
+nasm -f macho64 $1.asm && ld -macosx_version_min 10.7.0 -lSystem $1.o -o $1
